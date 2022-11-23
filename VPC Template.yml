@@ -73,7 +73,7 @@ Resources:
       RouteTableId: !Ref PublicRouteTable
       SubnetId: !Ref DataCenterPublicSubnet
 
- WindowsInstanceSG: 
+  WindowsInstanceSG: 
     Properties:
       VpcId: !Ref VPC
       GroupName: DE-Extract-WindowsInstanceSG
